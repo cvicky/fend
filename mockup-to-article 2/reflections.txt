@@ -1,0 +1,27 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+Skills I've learned:
+-the coding work flow where I edit the code in the text editor then refresh the page in the web broweser
+-the basics of HTML
+-how to use resources on the internet for when I get stuck (MDN, Google, StackOverflow, W3Schools)
+
+What has been easy:
+-Most of HTML has opening and closing tags so once I know what a tag is used for, the formatting of the rest of the page is pretty straightforward
+-The HTML package for sublime color-codes html files. The color-coding helps to debug when something isn't working because it is easy to see where there is something wrong.
+
+What has been difficult:
+-It is taking time to adjust to the fact that the way I format the text in the html file will not be the same way it shows up in the browswer. A line break in the html file will only show up if I use <br> instead of making one like on a normal text file. 
+-understanding when to use <b> vs <strong> and <i> vs <em>
+
+How I've used the problem solving strategies from the first project:
+-I knew that I had resources available to look into for when I got stuck
+-I used MDN, Google, StackOverflow, W3Schools
+-I took time and stepped away to get refreshed
