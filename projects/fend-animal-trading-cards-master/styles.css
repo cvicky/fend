@@ -1,29 +1,51 @@
 /* add your CSS here */
 
 
+
 .card{
-	padding: 10px;
-	border: solid gray;	
-	width: 440px;
+	
+	border: solid #D3D3D3 1px;	
+	width: 324px;
 	position:relative;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
 .information{
-	width: 300px;
-	height: 300px;
-	border: solid gray;
+	width: 276px;
+	height: 200px;
+	border: solid #D3D3D3 1px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	margin-top:12px;
+	font-size: 12px;
+}
+
+h3{
+	margin-left: 12px;
+}
+
+img{
+	margin-right: 12px;
+	margin-left: 12px;
+
+}
+
+p{
+	padding:0;
 }
 
 p.italic{
+	padding:0;
 	font-style: italic;
 }
 
-.information ul, .information li{
+ul{
 	list-style: none;
-	margin: 0
-	padding: 0;
+	padding: 0
 }
 
 span{
