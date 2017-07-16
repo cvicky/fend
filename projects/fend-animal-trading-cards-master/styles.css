@@ -7,8 +7,12 @@
 	border: solid #D3D3D3 1px;	
 	width: 324px;
 	position:relative;
+	margin-top: 100px;
 	left: 50%;
 	transform: translateX(-50%);
+	
+	
+	box-shadow: 8px 8px 5px #D3D3D3;
 }
 
 .information{
