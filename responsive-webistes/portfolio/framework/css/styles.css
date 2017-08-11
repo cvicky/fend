@@ -1,21 +1,107 @@
-body{
-    font-family: 'Lato', sans-serif;
-    color: grey;
-    font-weight: 300;
+body {
+  font-family: 'Lato', sans-serif;
+  color: grey;
+  font-weight: 300;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  display: flex; 
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header-text {
+  margin-left: auto;
 }
 
 .text-muted {
-    color: grey;
+  color: grey;
 }
 
 .text-thin {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .title-super {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .title-logo {
-    margin-top: 20px;
+  margin-top: 25px;
+  width: 108px;
+  height: 92px;
 }
+
+.video {
+  width: 560px; 
+  height: 315px;
+}
+
+@media screen and (max-width: 768px) { 
+  .title-super {
+    font-size: 40px;
+  }
+
+  .title-sub {
+    font-size: 25px;
+  }
+
+  .title2-super {
+    font-size: 25px;
+  }
+
+  .title2-sub {
+    font-size: 20px;
+  }
+
+  .main-img {
+    width: 768px;
+    height: auto;
+  }
+
+  .video {
+    width: 350px; 
+    height: 315px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .title-logo {
+    width: 60px;
+    height: 51px;
+  }
+
+  .title-super {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .title-sub {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .title2-super {
+    font-size: 20px;
+  }
+
+  .title2-sub {
+    font-size: 18px;
+  }
+   
+  .main-img {
+    width: 412px;
+    height: auto;
+  }
+
+  .video {
+   width: 325px; 
+   height: auto;
+  }
+ }
