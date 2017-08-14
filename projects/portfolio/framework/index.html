@@ -6,10 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio Page</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -51,60 +49,65 @@
         <img data-toggle="modal" data-target="#project3" class="img-border img-responsive center-block" src="images/roadsign.jpg" alt="project1"> 
         <a href="https://www.amazon.com/dp/B0747S8F8L"><h3 class="title2-sub text-uppercase">Alexa Skill: NY Learner's Permit Questions</h3></a>
       </div>   
+      <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     </div>
-  </div>
 
-   <!-- Modal 1-->
-  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h4 class="modal-title" id="myModalLabel1">#DevShorts</h4>
-              </div>
-              <div class="modal-body">
-                  <iframe class="video center-block" src="https://www.youtube.com/embed/9z-Pdfxxdyo"></iframe>
-                  <p>This was a really fun video to shoot. I got to meet and work with Ben Halpern who is the creater of The Practical Dev. I also got a chance meet other developers and see what goes on behind the scenes of video productions.</p>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-          </div>
-      </div>
-  </div>
 
-  <!-- Modal 2-->
-  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+     <!-- Modal 1-->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
       <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h4 class="modal-title" id="myModalLabel2">Tweet v Sound</h4>
-              </div>
-              <div class="modal-body">
-                  <img class="img-responsive" src="images/tweetmodal.jpg" alt="tweet modal">
-                  <p>I really like listening to music and this project was a way of incorporating music into programming. I learned Node.js, Javascript, and worked with the Twitter and Soundcloud API.</p>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel1">#DevShorts</h4>
           </div>
+          <div class="modal-body">
+            <iframe class="video center-block" src="https://www.youtube.com/embed/9z-Pdfxxdyo"></iframe>
+            <p>This was a really fun video to shoot. I got to meet and work with Ben Halpern who is the creater of The Practical Dev. I also got a chance meet other developers and see what goes on behind the scenes of video productions.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
-  </div>
+    </div>
 
-  <!-- Modal 3-->
-  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <!-- Modal 2-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
       <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h4 class="modal-title" id="myModalLabel3">Alexa Skill: New York Learner's Permit Questions</h4>
-              </div>
-              <div class="modal-body">
-                  <img class="img-responsive" src="images/alexamodal.jpg" alt="alexa skill modal">
-                  <p>This project was the result of needing someone to help me prepare for the NY Learner's Permit Exam at a moment's notice (*cough* the night before *cough*). Alexa had all the capabilities I was looking for. I learned a lot about Amazon AWS, AWS Lambda, the Alexa Skills Kit (ASK), and the ASK SDK.</p>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel2">Tweet v Sound</h4>
           </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/tweetmodal.jpg" alt="tweet modal">
+            <p>I really like listening to music and this project was a way of incorporating music into programming. I learned Node.js, Javascript, and worked with the Twitter and Soundcloud API.</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
+    </div>
+
+    <!-- Modal 3-->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel3">Alexa Skill: New York Learner's Permit Questions</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/alexamodal.jpg" alt="alexa skill modal">
+            <p>This project was the result of needing someone to help me prepare for the NY Learner's Permit Exam at a moment's notice (*cough* the night before *cough*). Alexa had all the capabilities I was looking for. I learned a lot about Amazon AWS, AWS Lambda, the Alexa Skills Kit (ASK), and the ASK SDK.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
+
