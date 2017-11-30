@@ -14,9 +14,9 @@ var facebookProfile = {
         return this.messages.splice(index, 1);
     },
     addFriend: function(){
-        this.friends++;
+        return this.friends++;
     },
     removeFriend: function(){
-        this.friends--;
+        return this.friends--;
     }
 }
